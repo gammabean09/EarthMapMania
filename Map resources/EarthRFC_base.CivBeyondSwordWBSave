@@ -5760,7 +5760,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=15,y=41
-	BonusType=BONUS_COTTON
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
@@ -9058,7 +9057,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=24,y=25
-	BonusType=BONUS_COTTON
 	TerrainType=TERRAIN_DESERT
 	PlotType=2
 EndPlot
@@ -19746,7 +19744,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=53,y=32
-	BonusType=BONUS_COTTON
 	TerrainType=TERRAIN_DESERT
 	PlotType=2
 EndPlot
@@ -25062,7 +25059,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=67,y=29
-	BonusType=BONUS_COTTON
 	TerrainType=TERRAIN_DESERT
 	PlotType=2
 EndPlot
@@ -30827,7 +30823,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=82,y=47
-	BonusType=BONUS_COTTON
 	isWOfRiver
 	RiverNSDirection=0
 	TerrainType=TERRAIN_DESERT
@@ -31918,7 +31913,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=85,y=42
-	BonusType=BONUS_COTTON
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 EndPlot
@@ -31960,7 +31954,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=85,y=49
-	BonusType=BONUS_COTTON
 	TerrainType=TERRAIN_DESERT
 	PlotType=2
 EndPlot
@@ -33754,7 +33747,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=90,y=36
-	BonusType=BONUS_COTTON
 	TerrainType=TERRAIN_DESERT
 	PlotType=2
 EndPlot
@@ -34590,7 +34582,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=92,y=50
-	BonusType=BONUS_COTTON
 	TerrainType=TERRAIN_DESERT
 	PlotType=2
 EndPlot
@@ -36047,7 +36038,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=96,y=48
-	BonusType=BONUS_COTTON
 	TerrainType=TERRAIN_DESERT
 	PlotType=1
 EndPlot
