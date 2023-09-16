@@ -1,323 +1,237 @@
-Version=11 		
-BeginGame 		
-	Calendar=CALENDAR_DEFAULT 		
-	Option=GAMEOPTION_AGGRESSIVE_AI	
-	Option=GAMEOPTION_NO_TECH_BROKERING	
-	GameTurn=0 		
-	StartYear=-3000 		
-	Description=TXT_KEY_RHYES_WB_DESC
-	ModPath=Mods\Rhye's and Fall of Civilization
+Version=11
+BeginGame
+	Calendar=CALENDAR_DEFAULT
+	GameTurn=0
+	StartYear=-4000
 EndGame
-BeginTeam                 
-	Tech=TECH_THE_WHEEL                 
-	Tech=TECH_AGRICULTURE                 
+BeginTeam
+	Tech=TECH_THE_WHEEL
+	Tech=TECH_AGRICULTURE
 EndTeam
-BeginTeam                 
-	Tech=TECH_MYSTICISM                 
-	Tech=TECH_MINING                 
+BeginTeam
+	Tech=TECH_MYSTICISM
+	Tech=TECH_MINING
 EndTeam
-BeginTeam                 
-	Tech=TECH_AGRICULTURE                 
-	Tech=TECH_MINING                 
+BeginTeam
+	Tech=TECH_AGRICULTURE
+	Tech=TECH_MINING
 EndTeam
-BeginTeam                 
-	Tech=TECH_AGRICULTURE                 
-	Tech=TECH_THE_WHEEL                 
+BeginTeam
+	Tech=TECH_FISHING
+	Tech=TECH_HUNTING
 EndTeam
-BeginTeam                 
+BeginTeam
+	Tech=TECH_FISHING
+	Tech=TECH_MINING
 EndTeam
-BeginTeam                 
+BeginTeam
+	Tech=TECH_AGRICULTURE
+	Tech=TECH_HUNTING
 EndTeam
-BeginTeam                 
+BeginTeam
+	Tech=TECH_FISHING
+	Tech=TECH_THE_WHEEL
 EndTeam
-BeginTeam                 
+BeginTeam
+	Tech=TECH_HUNTING
+	Tech=TECH_MINING
 EndTeam
-BeginTeam                 
+BeginTeam
+	Tech=TECH_THE_WHEEL
+	Tech=TECH_HUNTING
 EndTeam
-BeginTeam                 
+BeginTeam
+	Tech=TECH_THE_WHEEL
+	Tech=TECH_AGRICULTURE
 EndTeam
-BeginTeam                 
+BeginTeam
+	Tech=TECH_THE_WHEEL
+	Tech=TECH_MYSTICISM
 EndTeam
-BeginTeam                 
+BeginTeam
+	Tech=TECH_FISHING
+	Tech=TECH_MYSTICISM
 EndTeam
-BeginTeam                 
+BeginTeam
+	Tech=TECH_FISHING
+	Tech=TECH_MINING
 EndTeam
-BeginTeam                 
+BeginTeam
+	Tech=TECH_HUNTING
+	Tech=TECH_MINING
 EndTeam
-BeginTeam                 
+BeginTeam
+	Tech=TECH_THE_WHEEL
+	Tech=TECH_MINING
 EndTeam
-BeginTeam                 
+BeginTeam
+	Tech=TECH_AGRICULTURE
+	Tech=TECH_MYSTICISM
 EndTeam
-BeginTeam                 
+BeginTeam
+	Tech=TECH_MYSTICISM
+	Tech=TECH_HUNTING
 EndTeam
-BeginTeam                 
-EndTeam
-BeginTeam                 
-EndTeam
-BeginTeam                 
-EndTeam
-BeginTeam                 
-EndTeam
-BeginTeam                 
-EndTeam
-BeginTeam                 
-EndTeam
-BeginTeam                 
-EndTeam
-BeginTeam                 
-EndTeam
-BeginTeam                 
-EndTeam
-BeginTeam                 
-EndTeam
-BeginTeam                 
-EndTeam
-BeginTeam                 
-EndTeam
-BeginTeam                 
-EndTeam
-BeginTeam                 
+BeginTeam
+	Tech=TECH_FISHING
+	Tech=TECH_AGRICULTURE
 EndTeam
 BeginPlayer
-	LeaderType=LEADER_RAMESSES
-	CivType=CIVILIZATION_EGYPT                 
-	Team=0                 
-	PlayableCiv=1                 
-	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_HEREDITARY_RULE                 
-	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_SLAVERY                 
-	Handicap=HANDICAP_PRINCE                 
+	Team=0
+	LeaderType=LEADER_HATSHEPSUT
+	CivType=CIVILIZATION_EGYPT
+	PlayableCiv=1
+	StartingX=69, StartingY=34
+	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
+	Team=1
 	LeaderType=LEADER_ASOKA
-	CivType=CIVILIZATION_INDIA                 
-	Team=1                 
-	PlayableCiv=1                 
-	Handicap=HANDICAP_PRINCE                 
+	CivType=CIVILIZATION_INDIA
+	PlayableCiv=1
+	StartingX=90, StartingY=40
+	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
+	Team=2
 	LeaderType=LEADER_QIN_SHI_HUANG
-	CivType=CIVILIZATION_CHINA                 
-	Team=2                 
-	PlayableCiv=1                 
-	Handicap=HANDICAP_PRINCE                 
+	CivType=CIVILIZATION_CHINA
+	PlayableCiv=1
+	StartingX=102, StartingY=47
+	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
-	LeaderType=LEADER_HAMMURABI
-	CivType=CIVILIZATION_BABYLONIA                 
-	Team=3                 
-	PlayableCiv=1                 
-	Handicap=HANDICAP_PRINCE                 
+	Team=3
+	LeaderType=LEADER_ALEXANDER
+	CivType=CIVILIZATION_GREECE
+	PlayableCiv=1
+	StartingX=67, StartingY=41
+	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
-	LeaderType=LEADER_PERICLES
-	CivType=CIVILIZATION_GREECE                 
-	Team=4                 
-	PlayableCiv=1                 
-	Handicap=HANDICAP_PRINCE                 
+	Team=4
+	LeaderType=LEADER_JULIUS_CAESAR
+	CivType=CIVILIZATION_ROME
+	PlayableCiv=1
+	StartingX=60, StartingY=44
+	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
+	Team=5
 	LeaderType=LEADER_CYRUS
-	CivType=CIVILIZATION_PERSIA                 
-	Team=5                 
-	PlayableCiv=1                 
-	Handicap=HANDICAP_PRINCE                 
+	CivType=CIVILIZATION_PERSIA
+	PlayableCiv=1
+	StartingX=82, StartingY=39
+	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
-	LeaderType=LEADER_HANNIBAL
-	CivType=CIVILIZATION_CARTHAGE                 
-	Team=6                 
-	PlayableCiv=1                 
-	Handicap=HANDICAP_PRINCE                 
-EndPlayer
-BeginPlayer
-	LeaderType=LEADER_AUGUSTUS
-	CivType=CIVILIZATION_ROME                 
-	Team=7                 
-	PlayableCiv=1                 
-	Handicap=HANDICAP_PRINCE                 
-EndPlayer
-BeginPlayer
+	Team=6
 	LeaderType=LEADER_TOKUGAWA
-	CivType=CIVILIZATION_JAPAN                 
-	Team=8                 
-	PlayableCiv=1                 
-	Handicap=HANDICAP_PRINCE                 
+	CivType=CIVILIZATION_JAPAN
+	PlayableCiv=1
+	StartingX=113, StartingY=45
+	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
-	LeaderType=LEADER_ZARA_YAQOB
-	CivType=CIVILIZATION_ETHIOPIA                 
-	Team=9                 
-	PlayableCiv=1                 
-	Handicap=HANDICAP_PRINCE                 
+	Team=7
+	LeaderType=LEADER_FREDERICK
+	CivType=CIVILIZATION_GERMANY
+	PlayableCiv=1
+	StartingX=62, StartingY=52
+	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
-	LeaderType=LEADER_PACAL
-	CivType=CIVILIZATION_MAYA                 
-	Team=10                 
-	PlayableCiv=1                 
-	Handicap=HANDICAP_PRINCE                 
-EndPlayer
-BeginPlayer
-	LeaderType=LEADER_RAGNAR
-	CivType=CIVILIZATION_VIKING                 
-	Team=11                 
-	PlayableCiv=0                 
-	Handicap=HANDICAP_PRINCE                 
-EndPlayer
-BeginPlayer
-	LeaderType=LEADER_SALADIN
-	CivType=CIVILIZATION_ARABIA                 
-	Team=12                 
-	PlayableCiv=0                 
-	Handicap=HANDICAP_PRINCE                 
-EndPlayer
-BeginPlayer
-	LeaderType=LEADER_SURYAVARMAN
-	CivType=CIVILIZATION_KHMER                 
-	Team=13                 
-	PlayableCiv=0                 
-	Handicap=HANDICAP_PRINCE                 
-EndPlayer
-BeginPlayer
-	LeaderType=LEADER_ISABELLA
-	CivType=CIVILIZATION_SPAIN                 
-	Team=14                 
-	PlayableCiv=0                 
-	Handicap=HANDICAP_PRINCE                 
-EndPlayer
-BeginPlayer
-	LeaderType=LEADER_LOUIS_XIV
-	CivType=CIVILIZATION_FRANCE                 
-	Team=15                 
-	PlayableCiv=0                 
-	Handicap=HANDICAP_PRINCE                 
-EndPlayer
-BeginPlayer
-	LeaderType=LEADER_VICTORIA
-	CivType=CIVILIZATION_ENGLAND                 
-	Team=16                 
-	PlayableCiv=0                 
-	Handicap=HANDICAP_PRINCE                 
-EndPlayer
-BeginPlayer
-	LeaderType=LEADER_BISMARCK
-	CivType=CIVILIZATION_GERMANY                 
-	Team=17                 
-	PlayableCiv=0                 
-	Handicap=HANDICAP_PRINCE                 
-EndPlayer
-BeginPlayer
-	LeaderType=LEADER_STALIN
-	CivType=CIVILIZATION_RUSSIA                 
-	Team=18                 
-	PlayableCiv=0                 
-	Handicap=HANDICAP_PRINCE                 
-EndPlayer
-BeginPlayer
-	LeaderType=LEADER_WILLEM_VAN_ORANJE
-	CivType=CIVILIZATION_NETHERLANDS                 
-	Team=19                 
-	PlayableCiv=0                 
-	Handicap=HANDICAP_PRINCE                 
-EndPlayer
-BeginPlayer
-	LeaderType=LEADER_MANSA_MUSA
-	CivType=CIVILIZATION_MALI                 
-	Team=20                 
-	PlayableCiv=0                 
-	Handicap=HANDICAP_PRINCE                 
-EndPlayer
-BeginPlayer
-	LeaderType=LEADER_JOAO
-	CivType=CIVILIZATION_PORTUGAL                 
-	Team=21                 
-	PlayableCiv=0                 
-	Handicap=HANDICAP_PRINCE                 
-EndPlayer
-BeginPlayer
-	LeaderType=LEADER_HUAYNA_CAPAC
-	CivType=CIVILIZATION_INCA                 
-	Team=22                 
-	PlayableCiv=0                 
-	Handicap=HANDICAP_PRINCE                 
-EndPlayer
-BeginPlayer
+	Team=8
 	LeaderType=LEADER_GENGHIS_KHAN
-	CivType=CIVILIZATION_MONGOL                 
-	Team=23                 
-	PlayableCiv=0                 
-	Handicap=HANDICAP_PRINCE                 
+	CivType=CIVILIZATION_MONGOL
+	PlayableCiv=1
+	StartingX=99, StartingY=51
+	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
+	Team=9
+	LeaderType=LEADER_LOUIS_XIV
+	CivType=CIVILIZATION_FRANCE
+	PlayableCiv=1
+	StartingX=56, StartingY=50
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=10
+	LeaderType=LEADER_SALADIN
+	CivType=CIVILIZATION_ARABIA
+	PlayableCiv=1
+	StartingX=75, StartingY=33
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=11
+	LeaderType=LEADER_ISABELLA
+	CivType=CIVILIZATION_SPAIN
+	PlayableCiv=1
+	StartingX=52, StartingY=44
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=12
+	LeaderType=LEADER_ELIZABETH
+	CivType=CIVILIZATION_ENGLAND
+	PlayableCiv=1
+	StartingX=53, StartingY=54
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=13
+	LeaderType=LEADER_CATHERINE
+	CivType=CIVILIZATION_RUSSIA
+	PlayableCiv=1
+	StartingX=73, StartingY=54
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=14
+	LeaderType=LEADER_MANSA_MUSA
+	CivType=CIVILIZATION_MALI
+	PlayableCiv=1
+	StartingX=53, StartingY=31
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=15
+	LeaderType=LEADER_HUAYNA_CAPAC
+	CivType=CIVILIZATION_INCA
+	PlayableCiv=1
+	StartingX=28, StartingY=22
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=16
 	LeaderType=LEADER_MONTEZUMA
-	CivType=CIVILIZATION_AZTEC                 
-	Team=24                 
-	PlayableCiv=0                 
-	Handicap=HANDICAP_PRINCE                 
+	CivType=CIVILIZATION_AZTEC
+	PlayableCiv=1
+	StartingX=18, StartingY=37
+	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
-	LeaderType=LEADER_MEHMED
-	CivType=CIVILIZATION_OTTOMAN                 
-	Team=25                 
-	PlayableCiv=0                 
-	Handicap=HANDICAP_PRINCE                 
-EndPlayer
-BeginPlayer
+	Team=17
 	LeaderType=LEADER_FRANKLIN_ROOSEVELT
-	CivType=CIVILIZATION_AMERICA                 
-	Team=26                 
-	PlayableCiv=0                
-	Handicap=HANDICAP_PRINCE                 
+	CivType=CIVILIZATION_AMERICA
+	PlayableCiv=1
+	StartingX=27, StartingY=46
+	Handicap=HANDICAP_NOBLE
 EndPlayer
-BeginPlayer                 
-	LeaderName=TXT_KEY_LEADER_INDEPENDENT
-	LeaderType=LEADER_PETER
-	CivType=CIVILIZATION_INDEPENDENT                 
-	Team=27                 
-	PlayableCiv=0                 
-	MinorNationStatus=1                 
-	Handicap=HANDICAP_PRINCE                 
-EndPlayer
-BeginPlayer                 
-	LeaderName=TXT_KEY_LEADER_INDEPENDENT
-	LeaderType=LEADER_PETER
-	CivType=CIVILIZATION_INDEPENDENT2                 
-	Team=28                 
-	PlayableCiv=0                 
-	MinorNationStatus=1                 
-	Handicap=HANDICAP_PRINCE                 
-EndPlayer
-BeginPlayer                 
-	LeaderName=TXT_KEY_LEADER_NATIVE
-	LeaderType=LEADER_SHAKA
-	CivType=CIVILIZATION_NATIVE                 
-	Team=29                 
-	PlayableCiv=0                 
-	MinorNationStatus=1                 
-	Handicap=HANDICAP_PRINCE                 
-EndPlayer
-BeginPlayer
-	LeaderType=LEADER_BRENNUS
-	CivType=CIVILIZATION_CELT                 
-	Team=30                 
-	PlayableCiv=0                 
-	MinorNationStatus=1                 
-	Handicap=HANDICAP_PRINCE                 
-EndPlayer
-
 BeginMap
 	grid width=124
 	grid height=68
 	wrap X=1
 	wrap Y=0
-	top latitude=90                 
-	bottom latitude=-90                 
-	world size=WORLDSIZE_HUGE                 
-	climate=CLIMATE_TEMPERATE                 
-	sealevel=SEALEVEL_MEDIUM                 
+	top latitude=90
+	bottom latitude=-90
+	world size=WORLDSIZE_HUGE
+	climate=CLIMATE_TEMPERATE
+	sealevel=SEALEVEL_MEDIUM
 	num plots written=8432
 EndMap
-
 
 ### Plot Info ###
 BeginPlot
@@ -5844,7 +5758,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=15,y=41
-	BonusType=BONUS_COTTON
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
@@ -5934,25 +5847,22 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=15,y=56
-	BonusType=BONUS_SWAMP
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
 	x=15,y=57
-	BonusType=BONUS_SWAMP
 	isNOfRiver
 	RiverWEDirection=1
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
 	x=15,y=58
-	BonusType=BONUS_SWAMP
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -6303,13 +6213,12 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=16,y=55
-	BonusType=BONUS_SWAMP
 	isNOfRiver
 	RiverWEDirection=1
 	isWOfRiver
 	RiverNSDirection=0
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -6323,11 +6232,10 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=16,y=57
-	BonusType=BONUS_SWAMP
 	isNOfRiver
 	RiverWEDirection=1
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -6678,16 +6586,14 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=17,y=54
-	BonusType=BONUS_SWAMP
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
 	x=17,y=55
-	BonusType=BONUS_SWAMP
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -7787,9 +7693,8 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=20,y=51
-	BonusType=BONUS_SWAMP
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -7800,9 +7705,8 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=20,y=53
-	BonusType=BONUS_SWAMP
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -8167,11 +8071,10 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=21,y=51
-	BonusType=BONUS_SWAMP
 	isNOfRiver
 	RiverWEDirection=1
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -8869,11 +8772,10 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=23,y=43
-	BonusType=BONUS_SWAMP
 	isWOfRiver
 	RiverNSDirection=2
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -9153,7 +9055,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=24,y=25
-	BonusType=BONUS_COTTON
 	TerrainType=TERRAIN_DESERT
 	PlotType=2
 EndPlot
@@ -9615,9 +9516,8 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=25,y=44
-	BonusType=BONUS_SWAMP
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -10628,11 +10528,10 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=28,y=26
-	BonusType=BONUS_SWAMP
 	isNOfRiver
 	RiverWEDirection=1
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -11000,11 +10899,10 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=29,y=26
-	BonusType=BONUS_SWAMP
 	isNOfRiver
 	RiverWEDirection=1
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -11015,22 +10913,20 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=29,y=28
-	BonusType=BONUS_SWAMP
 	isNOfRiver
 	RiverWEDirection=1
 	isWOfRiver
 	RiverNSDirection=0
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
 	x=29,y=29
-	BonusType=BONUS_SWAMP
 	isWOfRiver
 	RiverNSDirection=0
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -11381,9 +11277,8 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=30,y=24
-	BonusType=BONUS_SWAMP
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -11394,11 +11289,10 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=30,y=26
-	BonusType=BONUS_SWAMP
 	isNOfRiver
 	RiverWEDirection=1
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -11423,13 +11317,12 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=30,y=30
-	BonusType=BONUS_SWAMP
 	isNOfRiver
 	RiverWEDirection=1
 	isWOfRiver
 	RiverNSDirection=0
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -11774,20 +11667,18 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=31,y=24
-	BonusType=BONUS_SWAMP
 	isNOfRiver
 	RiverWEDirection=1
 	isWOfRiver
 	RiverNSDirection=0
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
 	x=31,y=25
-	BonusType=BONUS_SWAMP
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -12079,11 +11970,10 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=32,y=9
-	BonusType=BONUS_SWAMP
 	isNOfRiver
 	RiverWEDirection=1
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -12172,29 +12062,26 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=32,y=25
-	BonusType=BONUS_SWAMP
 	isNOfRiver
 	RiverWEDirection=1
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
 	x=32,y=26
-	BonusType=BONUS_SWAMP
 	isNOfRiver
 	RiverWEDirection=1
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
 	x=32,y=27
-	BonusType=BONUS_SWAMP
 	isNOfRiver
 	RiverWEDirection=1
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -12468,11 +12355,10 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=33,y=9
-	BonusType=BONUS_SWAMP
 	isNOfRiver
 	RiverWEDirection=1
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -12494,11 +12380,10 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=33,y=13
-	BonusType=BONUS_SWAMP
 	isWOfRiver
 	RiverNSDirection=2
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -12572,24 +12457,22 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=33,y=25
-	BonusType=BONUS_SWAMP
 	isNOfRiver
 	RiverWEDirection=1
 	isWOfRiver
 	RiverNSDirection=0
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
 	x=33,y=26
-	BonusType=BONUS_SWAMP
 	isNOfRiver
 	RiverWEDirection=1
 	isWOfRiver
 	RiverNSDirection=2
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -12889,18 +12772,16 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=34,y=13
-	BonusType=BONUS_SWAMP
 	isWOfRiver
 	RiverNSDirection=2
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
 	x=34,y=14
-	BonusType=BONUS_SWAMP
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -12969,11 +12850,10 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=34,y=25
-	BonusType=BONUS_SWAMP
 	isWOfRiver
 	RiverNSDirection=0
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -13291,20 +13171,18 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=35,y=15
-	BonusType=BONUS_SWAMP
 	isWOfRiver
 	RiverNSDirection=2
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
 	x=35,y=16
-	BonusType=BONUS_SWAMP
 	isWOfRiver
 	RiverNSDirection=2
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -13316,31 +13194,28 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=35,y=18
-	BonusType=BONUS_SWAMP
 	isNOfRiver
 	RiverWEDirection=1
 	isWOfRiver
 	RiverNSDirection=2
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
 	x=35,y=19
-	BonusType=BONUS_SWAMP
 	isWOfRiver
 	RiverNSDirection=2
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
 	x=35,y=20
-	BonusType=BONUS_SWAMP
 	isWOfRiver
 	RiverNSDirection=2
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -13375,20 +13250,18 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=35,y=25
-	BonusType=BONUS_SWAMP
 	isWOfRiver
 	RiverNSDirection=0
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
 	x=35,y=26
-	BonusType=BONUS_SWAMP
 	isWOfRiver
 	RiverNSDirection=0
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -13696,22 +13569,20 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=36,y=16
-	BonusType=BONUS_SWAMP
 	isWOfRiver
 	RiverNSDirection=2
 	isNOfRiver
 	RiverWEDirection=3
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
 	x=36,y=17
-	BonusType=BONUS_SWAMP
 	isWOfRiver
 	RiverNSDirection=2
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -13722,16 +13593,14 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=36,y=19
-	BonusType=BONUS_SWAMP
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
 	x=36,y=20
-	BonusType=BONUS_SWAMP
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -14080,22 +13949,20 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=37,y=17
-	BonusType=BONUS_SWAMP
 	isNOfRiver
 	RiverWEDirection=3
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
 	x=37,y=18
-	BonusType=BONUS_SWAMP
 	isWOfRiver
 	RiverNSDirection=2
 	isNOfRiver
 	RiverWEDirection=3
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -14116,31 +13983,28 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=37,y=22
-	BonusType=BONUS_SWAMP
 	isNOfRiver
 	RiverWEDirection=1
 	isWOfRiver
 	RiverNSDirection=0
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
 	x=37,y=23
-	BonusType=BONUS_SWAMP
 	isWOfRiver
 	RiverNSDirection=0
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
 	x=37,y=24
-	BonusType=BONUS_SWAMP
 	isWOfRiver
 	RiverNSDirection=0
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -19482,9 +19346,8 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=52,y=29
-	BonusType=BONUS_SWAMP
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -19879,7 +19742,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=53,y=32
-	BonusType=BONUS_COTTON
 	TerrainType=TERRAIN_DESERT
 	PlotType=2
 EndPlot
@@ -23151,13 +23013,12 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=62,y=21
-	BonusType=BONUS_SWAMP
 	isWOfRiver
 	RiverNSDirection=2
 	isNOfRiver
 	RiverWEDirection=3
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -23170,9 +23031,8 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=62,y=23
-	BonusType=BONUS_SWAMP
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -23538,40 +23398,36 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=63,y=22
-	BonusType=BONUS_SWAMP
 	isNOfRiver
 	RiverWEDirection=3
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
 	x=63,y=23
-	BonusType=BONUS_SWAMP
 	isWOfRiver
 	RiverNSDirection=2
 	isNOfRiver
 	RiverWEDirection=3
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
 	x=63,y=24
-	BonusType=BONUS_SWAMP
 	isWOfRiver
 	RiverNSDirection=2
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
 	x=63,y=25
-	BonusType=BONUS_SWAMP
 	isWOfRiver
 	RiverNSDirection=2
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -23943,29 +23799,26 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=64,y=23
-	BonusType=BONUS_SWAMP
 	isWOfRiver
 	RiverNSDirection=2
 	isNOfRiver
 	RiverWEDirection=3
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
 	x=64,y=24
-	BonusType=BONUS_SWAMP
 	isWOfRiver
 	RiverNSDirection=2
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
 	x=64,y=25
-	BonusType=BONUS_SWAMP
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -24314,20 +24167,18 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=65,y=18
-	BonusType=BONUS_SWAMP
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
 	x=65,y=19
-	BonusType=BONUS_SWAMP
 	isNOfRiver
 	RiverWEDirection=1
 	isWOfRiver
 	RiverNSDirection=0
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -24349,11 +24200,10 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=65,y=22
-	BonusType=BONUS_SWAMP
 	isNOfRiver
 	RiverWEDirection=3
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -24364,18 +24214,16 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=65,y=24
-	BonusType=BONUS_SWAMP
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
 	x=65,y=25
-	BonusType=BONUS_SWAMP
 	isNOfRiver
 	RiverWEDirection=3
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -25159,9 +25007,8 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=67,y=20
-	BonusType=BONUS_SWAMP
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -25210,7 +25057,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=67,y=29
-	BonusType=BONUS_COTTON
 	TerrainType=TERRAIN_DESERT
 	PlotType=2
 EndPlot
@@ -25569,9 +25415,8 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=68,y=24
-	BonusType=BONUS_SWAMP
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -25584,31 +25429,28 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=68,y=26
-	BonusType=BONUS_SWAMP
 	isNOfRiver
 	RiverWEDirection=3
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
 	x=68,y=27
-	BonusType=BONUS_SWAMP
 	isNOfRiver
 	RiverWEDirection=1
 	isWOfRiver
 	RiverNSDirection=0
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
 	x=68,y=28
-	BonusType=BONUS_SWAMP
 	isWOfRiver
 	RiverNSDirection=0
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -25994,23 +25836,20 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=69,y=26
-	BonusType=BONUS_SWAMP
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
 	x=69,y=27
-	BonusType=BONUS_SWAMP
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
 	x=69,y=28
-	BonusType=BONUS_SWAMP
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -30982,7 +30821,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=82,y=47
-	BonusType=BONUS_COTTON
 	isWOfRiver
 	RiverNSDirection=0
 	TerrainType=TERRAIN_DESERT
@@ -31376,22 +31214,20 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=83,y=53
-	BonusType=BONUS_SWAMP
 	isNOfRiver
 	RiverWEDirection=1
 	isWOfRiver
 	RiverNSDirection=0
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
 	x=83,y=54
-	BonusType=BONUS_SWAMP
 	isWOfRiver
 	RiverNSDirection=0
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -31425,20 +31261,18 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=83,y=60
-	BonusType=BONUS_SWAMP
 	isWOfRiver
 	RiverNSDirection=0
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
 	x=83,y=61
-	BonusType=BONUS_SWAMP
 	isWOfRiver
 	RiverNSDirection=0
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -31764,9 +31598,8 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=84,y=54
-	BonusType=BONUS_SWAMP
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -31795,36 +31628,32 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=84,y=58
-	BonusType=BONUS_SWAMP
 	isWOfRiver
 	RiverNSDirection=0
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
 	x=84,y=59
-	BonusType=BONUS_SWAMP
 	isWOfRiver
 	RiverNSDirection=0
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
 	x=84,y=60
-	BonusType=BONUS_SWAMP
 	isNOfRiver
 	RiverWEDirection=3
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
 	x=84,y=61
-	BonusType=BONUS_SWAMP
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -32082,7 +31911,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=85,y=42
-	BonusType=BONUS_COTTON
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 EndPlot
@@ -32124,7 +31952,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=85,y=49
-	BonusType=BONUS_COTTON
 	TerrainType=TERRAIN_DESERT
 	PlotType=2
 EndPlot
@@ -32155,25 +31982,22 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=85,y=55
-	BonusType=BONUS_SWAMP
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
 	x=85,y=56
-	BonusType=BONUS_SWAMP
 	isNOfRiver
 	RiverWEDirection=3
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
 	x=85,y=57
-	BonusType=BONUS_SWAMP
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -32186,16 +32010,14 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=85,y=59
-	BonusType=BONUS_SWAMP
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
 	x=85,y=60
-	BonusType=BONUS_SWAMP
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -32425,16 +32247,14 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=86,y=37
-	BonusType=BONUS_SWAMP
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
 	x=86,y=38
-	BonusType=BONUS_SWAMP
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -32527,36 +32347,32 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=86,y=54
-	BonusType=BONUS_SWAMP
 	isWOfRiver
 	RiverNSDirection=0
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
 	x=86,y=55
-	BonusType=BONUS_SWAMP
 	isWOfRiver
 	RiverNSDirection=0
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
 	x=86,y=56
-	BonusType=BONUS_SWAMP
 	isNOfRiver
 	RiverWEDirection=3
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
 	x=86,y=57
-	BonusType=BONUS_SWAMP
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -32812,9 +32628,8 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=87,y=38
-	BonusType=BONUS_SWAMP
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -32912,11 +32727,10 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=87,y=54
-	BonusType=BONUS_SWAMP
 	isNOfRiver
 	RiverWEDirection=3
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -32933,18 +32747,16 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=87,y=57
-	BonusType=BONUS_SWAMP
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
 	x=87,y=58
-	BonusType=BONUS_SWAMP
 	isNOfRiver
 	RiverWEDirection=3
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -33298,11 +33110,10 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=88,y=56
-	BonusType=BONUS_SWAMP
 	isWOfRiver
 	RiverNSDirection=0
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -33315,11 +33126,10 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=88,y=58
-	BonusType=BONUS_SWAMP
 	isNOfRiver
 	RiverWEDirection=3
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -33667,20 +33477,18 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=89,y=55
-	BonusType=BONUS_SWAMP
 	isWOfRiver
 	RiverNSDirection=0
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
 	x=89,y=56
-	BonusType=BONUS_SWAMP
 	isNOfRiver
 	RiverWEDirection=3
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -33708,11 +33516,10 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=89,y=61
-	BonusType=BONUS_SWAMP
 	isWOfRiver
 	RiverNSDirection=0
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -33938,7 +33745,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=90,y=36
-	BonusType=BONUS_COTTON
 	TerrainType=TERRAIN_DESERT
 	PlotType=2
 EndPlot
@@ -34056,16 +33862,14 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=90,y=57
-	BonusType=BONUS_SWAMP
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
 	x=90,y=58
-	BonusType=BONUS_SWAMP
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -34079,16 +33883,14 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=90,y=60
-	BonusType=BONUS_SWAMP
 	isWOfRiver
 	RiverNSDirection=0
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
 	x=90,y=61
-	BonusType=BONUS_SWAMP
 	isNOfRiver
 	RiverWEDirection=3
 	BonusType=BONUS_HORSE
@@ -34447,20 +34249,18 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=91,y=57
-	BonusType=BONUS_SWAMP
 	isWOfRiver
 	RiverNSDirection=0
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
 	x=91,y=58
-	BonusType=BONUS_SWAMP
 	isWOfRiver
 	RiverNSDirection=0
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -34473,9 +34273,8 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=91,y=60
-	BonusType=BONUS_SWAMP
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -34781,7 +34580,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=92,y=50
-	BonusType=BONUS_COTTON
 	TerrainType=TERRAIN_DESERT
 	PlotType=2
 EndPlot
@@ -36238,7 +36036,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=96,y=48
-	BonusType=BONUS_COTTON
 	TerrainType=TERRAIN_DESERT
 	PlotType=1
 EndPlot
@@ -37683,11 +37480,10 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=100,y=36
-	BonusType=BONUS_SWAMP
 	isWOfRiver
 	RiverNSDirection=2
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -37831,9 +37627,8 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=100,y=58
-	BonusType=BONUS_SWAMP
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -38079,11 +37874,10 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=101,y=36
-	BonusType=BONUS_SWAMP
 	isNOfRiver
 	RiverWEDirection=1
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -38224,20 +38018,18 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=101,y=58
-	BonusType=BONUS_SWAMP
 	isNOfRiver
 	RiverWEDirection=1
 	isWOfRiver
 	RiverNSDirection=0
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
 	x=101,y=59
-	BonusType=BONUS_SWAMP
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -38457,11 +38249,10 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=102,y=33
-	BonusType=BONUS_SWAMP
 	isWOfRiver
 	RiverNSDirection=2
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -38622,11 +38413,10 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=102,y=59
-	BonusType=BONUS_SWAMP
 	isNOfRiver
 	RiverWEDirection=1
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -39405,20 +39195,18 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=104,y=60
-	BonusType=BONUS_SWAMP
 	isWOfRiver
 	RiverNSDirection=0
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
 	x=104,y=61
-	BonusType=BONUS_SWAMP
 	isNOfRiver
 	RiverWEDirection=3
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -39792,11 +39580,10 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=105,y=60
-	BonusType=BONUS_SWAMP
 	isNOfRiver
 	RiverWEDirection=3
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -40488,9 +40275,8 @@ BeginPlot
 	x=107,y=50
 	isNOfRiver
 	RiverWEDirection=1
-	BonusType=BONUS_SWAMP
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -40880,27 +40666,24 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=108,y=52
-	BonusType=BONUS_SWAMP
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
 	x=108,y=53
-	BonusType=BONUS_SWAMP
 	isWOfRiver
 	RiverNSDirection=2
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
 	x=108,y=54
-	BonusType=BONUS_SWAMP
 	isNOfRiver
 	RiverWEDirection=1
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -41275,9 +41058,8 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=109,y=54
-	BonusType=BONUS_SWAMP
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -41463,9 +41245,8 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=110,y=20
-	BonusType=BONUS_SWAMP
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -41642,13 +41423,12 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=110,y=53
-	BonusType=BONUS_SWAMP
 	isNOfRiver
 	RiverWEDirection=1
 	isWOfRiver
 	RiverNSDirection=0
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -41834,9 +41614,8 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=111,y=20
-	BonusType=BONUS_SWAMP
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -42006,16 +41785,14 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=111,y=52
-	BonusType=BONUS_SWAMP
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
 	x=111,y=53
-	BonusType=BONUS_SWAMP
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -42378,9 +42155,8 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=112,y=54
-	BonusType=BONUS_SWAMP
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -42919,16 +42695,14 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=114,y=18
-	BonusType=BONUS_SWAMP
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
 	x=114,y=19
-	BonusType=BONUS_SWAMP
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
@@ -42964,11 +42738,10 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=114,y=25
-	BonusType=BONUS_SWAMP
 	isNOfRiver
 	RiverWEDirection=1
-	FeatureType=FEATURE_MUD, FeatureVariety=0
-	TerrainType=TERRAIN_MARSH
+	TerrainType=TERRAIN_SNOW
+#marsh
 	PlotType=2
 EndPlot
 BeginPlot
