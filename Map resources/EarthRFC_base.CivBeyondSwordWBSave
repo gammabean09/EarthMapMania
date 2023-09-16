@@ -81,7 +81,7 @@ BeginPlayer
 	LeaderType=LEADER_HATSHEPSUT
 	CivType=CIVILIZATION_EGYPT
 	PlayableCiv=1
-	StartingX=69, StartingY=37
+	StartingX=69, StartingY=34
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
@@ -105,7 +105,7 @@ BeginPlayer
 	LeaderType=LEADER_ALEXANDER
 	CivType=CIVILIZATION_GREECE
 	PlayableCiv=1
-	StartingX=67, StartingY=43
+	StartingX=67, StartingY=41
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
@@ -113,7 +113,7 @@ BeginPlayer
 	LeaderType=LEADER_JULIUS_CAESAR
 	CivType=CIVILIZATION_ROME
 	PlayableCiv=1
-	StartingX=61, StartingY=46
+	StartingX=60, StartingY=44
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
@@ -121,7 +121,7 @@ BeginPlayer
 	LeaderType=LEADER_CYRUS
 	CivType=CIVILIZATION_PERSIA
 	PlayableCiv=1
-	StartingX=82, StartingY=40
+	StartingX=82, StartingY=39
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
@@ -153,7 +153,7 @@ BeginPlayer
 	LeaderType=LEADER_LOUIS_XIV
 	CivType=CIVILIZATION_FRANCE
 	PlayableCiv=1
-	StartingX=58, StartingY=51
+	StartingX=56, StartingY=50
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
@@ -161,7 +161,7 @@ BeginPlayer
 	LeaderType=LEADER_SALADIN
 	CivType=CIVILIZATION_ARABIA
 	PlayableCiv=1
-	StartingX=75, StartingY=35
+	StartingX=75, StartingY=33
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
@@ -169,7 +169,7 @@ BeginPlayer
 	LeaderType=LEADER_ISABELLA
 	CivType=CIVILIZATION_SPAIN
 	PlayableCiv=1
-	StartingX=55, StartingY=46
+	StartingX=52, StartingY=44
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
@@ -177,7 +177,7 @@ BeginPlayer
 	LeaderType=LEADER_ELIZABETH
 	CivType=CIVILIZATION_ENGLAND
 	PlayableCiv=1
-	StartingX=56, StartingY=53
+	StartingX=53, StartingY=54
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
@@ -193,7 +193,7 @@ BeginPlayer
 	LeaderType=LEADER_MANSA_MUSA
 	CivType=CIVILIZATION_MALI
 	PlayableCiv=1
-	StartingX=55, StartingY=34
+	StartingX=53, StartingY=31
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
@@ -201,7 +201,7 @@ BeginPlayer
 	LeaderType=LEADER_HUAYNA_CAPAC
 	CivType=CIVILIZATION_INCA
 	PlayableCiv=1
-	StartingX=30, StartingY=23
+	StartingX=28, StartingY=22
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
@@ -209,7 +209,7 @@ BeginPlayer
 	LeaderType=LEADER_MONTEZUMA
 	CivType=CIVILIZATION_AZTEC
 	PlayableCiv=1
-	StartingX=19, StartingY=37
+	StartingX=18, StartingY=37
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
@@ -217,7 +217,7 @@ BeginPlayer
 	LeaderType=LEADER_FRANKLIN_ROOSEVELT
 	CivType=CIVILIZATION_AMERICA
 	PlayableCiv=1
-	StartingX=28, StartingY=45
+	StartingX=27, StartingY=46
 	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginMap
