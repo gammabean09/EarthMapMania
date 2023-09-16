@@ -1,239 +1,237 @@
-Version=11 		
-BeginGame 		
-	Calendar=CALENDAR_DEFAULT 		
-	GameTurn=0 		
-	StartYear=-4000 		
+Version=11
+BeginGame
+	Calendar=CALENDAR_DEFAULT
+	GameTurn=0
+	StartYear=-4000
 EndGame
-BeginTeam                         
-	Tech=TECH_THE_WHEEL                         
-	Tech=TECH_AGRICULTURE                         
+BeginTeam
+	Tech=TECH_THE_WHEEL
+	Tech=TECH_AGRICULTURE
 EndTeam
-BeginTeam                         
-	Tech=TECH_MYSTICISM                         
-	Tech=TECH_MINING                         
+BeginTeam
+	Tech=TECH_MYSTICISM
+	Tech=TECH_MINING
 EndTeam
-BeginTeam                         
-	Tech=TECH_AGRICULTURE                         
-	Tech=TECH_MINING                         
+BeginTeam
+	Tech=TECH_AGRICULTURE
+	Tech=TECH_MINING
 EndTeam
-BeginTeam                         
-	Tech=TECH_FISHING                         
-	Tech=TECH_HUNTING                         
+BeginTeam
+	Tech=TECH_FISHING
+	Tech=TECH_HUNTING
 EndTeam
-BeginTeam                         
-	Tech=TECH_FISHING                         
-	Tech=TECH_MINING                         
+BeginTeam
+	Tech=TECH_FISHING
+	Tech=TECH_MINING
 EndTeam
-BeginTeam                         
-	Tech=TECH_AGRICULTURE                         
-	Tech=TECH_HUNTING                         
+BeginTeam
+	Tech=TECH_AGRICULTURE
+	Tech=TECH_HUNTING
 EndTeam
-BeginTeam                         
-	Tech=TECH_FISHING                         
-	Tech=TECH_THE_WHEEL                         
+BeginTeam
+	Tech=TECH_FISHING
+	Tech=TECH_THE_WHEEL
 EndTeam
-BeginTeam                         
-	Tech=TECH_HUNTING                         
-	Tech=TECH_MINING                         
+BeginTeam
+	Tech=TECH_HUNTING
+	Tech=TECH_MINING
 EndTeam
-BeginTeam                         
-	Tech=TECH_THE_WHEEL                         
-	Tech=TECH_HUNTING                         
+BeginTeam
+	Tech=TECH_THE_WHEEL
+	Tech=TECH_HUNTING
 EndTeam
-BeginTeam                         
-	Tech=TECH_THE_WHEEL                         
-	Tech=TECH_AGRICULTURE                         
+BeginTeam
+	Tech=TECH_THE_WHEEL
+	Tech=TECH_AGRICULTURE
 EndTeam
-BeginTeam                         
-	Tech=TECH_THE_WHEEL                         
-	Tech=TECH_MYSTICISM                         
+BeginTeam
+	Tech=TECH_THE_WHEEL
+	Tech=TECH_MYSTICISM
 EndTeam
-BeginTeam                         
-	Tech=TECH_FISHING                         
-	Tech=TECH_MYSTICISM                         
+BeginTeam
+	Tech=TECH_FISHING
+	Tech=TECH_MYSTICISM
 EndTeam
-BeginTeam                         
-	Tech=TECH_FISHING                         
-	Tech=TECH_MINING                         
+BeginTeam
+	Tech=TECH_FISHING
+	Tech=TECH_MINING
 EndTeam
-BeginTeam                         
-	Tech=TECH_HUNTING                         
-	Tech=TECH_MINING                         
+BeginTeam
+	Tech=TECH_HUNTING
+	Tech=TECH_MINING
 EndTeam
-BeginTeam                         
-	Tech=TECH_THE_WHEEL                         
-	Tech=TECH_MINING                         
+BeginTeam
+	Tech=TECH_THE_WHEEL
+	Tech=TECH_MINING
 EndTeam
-BeginTeam                         
-	Tech=TECH_AGRICULTURE                         
-	Tech=TECH_MYSTICISM                         
+BeginTeam
+	Tech=TECH_AGRICULTURE
+	Tech=TECH_MYSTICISM
 EndTeam
-BeginTeam                         
-	Tech=TECH_MYSTICISM                         
-	Tech=TECH_HUNTING                         
+BeginTeam
+	Tech=TECH_MYSTICISM
+	Tech=TECH_HUNTING
 EndTeam
-BeginTeam                         
-	Tech=TECH_FISHING                         
-	Tech=TECH_AGRICULTURE                         
+BeginTeam
+	Tech=TECH_FISHING
+	Tech=TECH_AGRICULTURE
 EndTeam
 BeginPlayer
+	Team=0
 	LeaderType=LEADER_HATSHEPSUT
-	CivType=CIVILIZATION_EGYPT                         
-	Team=0                         
-	PlayableCiv=1                         
-	StartingX=69, StartingY=37                         
-	Handicap=HANDICAP_NOBLE                         
+	CivType=CIVILIZATION_EGYPT
+	PlayableCiv=1
+	StartingX=69, StartingY=37
+	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
+	Team=1
 	LeaderType=LEADER_ASOKA
-	CivType=CIVILIZATION_INDIA                         
-	Team=1                         
-	PlayableCiv=1                         
-	StartingX=90, StartingY=40                         
-	Handicap=HANDICAP_NOBLE                         
+	CivType=CIVILIZATION_INDIA
+	PlayableCiv=1
+	StartingX=90, StartingY=40
+	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
+	Team=2
 	LeaderType=LEADER_QIN_SHI_HUANG
-	CivType=CIVILIZATION_CHINA                         
-	Team=2                         
-	PlayableCiv=1                         
-	StartingX=102, StartingY=47                         
-	Handicap=HANDICAP_NOBLE                         
+	CivType=CIVILIZATION_CHINA
+	PlayableCiv=1
+	StartingX=102, StartingY=47
+	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
+	Team=3
 	LeaderType=LEADER_ALEXANDER
-	CivType=CIVILIZATION_GREECE                         
-	Team=3                         
-	PlayableCiv=1                         
-	StartingX=67, StartingY=43                         
-	Handicap=HANDICAP_NOBLE                         
+	CivType=CIVILIZATION_GREECE
+	PlayableCiv=1
+	StartingX=67, StartingY=43
+	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
+	Team=4
 	LeaderType=LEADER_JULIUS_CAESAR
-	CivType=CIVILIZATION_ROME                         
-	Team=4                         
-	PlayableCiv=1                         
-	StartingX=61, StartingY=46                         
-	Handicap=HANDICAP_NOBLE                         
+	CivType=CIVILIZATION_ROME
+	PlayableCiv=1
+	StartingX=61, StartingY=46
+	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
+	Team=5
 	LeaderType=LEADER_CYRUS
-	CivType=CIVILIZATION_PERSIA                         
-	Team=5                         
-	PlayableCiv=1                         
-	StartingX=82, StartingY=40                         
-	Handicap=HANDICAP_NOBLE                         
+	CivType=CIVILIZATION_PERSIA
+	PlayableCiv=1
+	StartingX=82, StartingY=40
+	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
+	Team=6
 	LeaderType=LEADER_TOKUGAWA
-	CivType=CIVILIZATION_JAPAN                         
-	Team=6                         
-	PlayableCiv=1                         
-	StartingX=113, StartingY=45                         
-	Handicap=HANDICAP_NOBLE                         
+	CivType=CIVILIZATION_JAPAN
+	PlayableCiv=1
+	StartingX=113, StartingY=45
+	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
+	Team=7
 	LeaderType=LEADER_FREDERICK
-	CivType=CIVILIZATION_GERMANY                         
-	Team=7                         
-	PlayableCiv=1                         
-	StartingX=62, StartingY=52                         
-	Handicap=HANDICAP_NOBLE                         
+	CivType=CIVILIZATION_GERMANY
+	PlayableCiv=1
+	StartingX=62, StartingY=52
+	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
+	Team=8
 	LeaderType=LEADER_GENGHIS_KHAN
-	CivType=CIVILIZATION_MONGOL                         
-	Team=8                         
-	PlayableCiv=1                         
-	StartingX=99, StartingY=51                         
-	Handicap=HANDICAP_NOBLE                         
+	CivType=CIVILIZATION_MONGOL
+	PlayableCiv=1
+	StartingX=99, StartingY=51
+	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
+	Team=9
 	LeaderType=LEADER_LOUIS_XIV
-	CivType=CIVILIZATION_FRANCE                         
-	Team=9                         
-	PlayableCiv=1                         
-	StartingX=58, StartingY=51                         
-	Handicap=HANDICAP_NOBLE                         
+	CivType=CIVILIZATION_FRANCE
+	PlayableCiv=1
+	StartingX=58, StartingY=51
+	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
+	Team=10
 	LeaderType=LEADER_SALADIN
-	CivType=CIVILIZATION_ARABIA                         
-	Team=10                         
-	PlayableCiv=1                         
-	StartingX=75, StartingY=35                         
-	Handicap=HANDICAP_NOBLE                         
+	CivType=CIVILIZATION_ARABIA
+	PlayableCiv=1
+	StartingX=75, StartingY=35
+	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
+	Team=11
 	LeaderType=LEADER_ISABELLA
-	CivType=CIVILIZATION_SPAIN                         
-	Team=11                         
-	PlayableCiv=1                         
-	StartingX=55, StartingY=46                         
-	Handicap=HANDICAP_NOBLE                         
+	CivType=CIVILIZATION_SPAIN
+	PlayableCiv=1
+	StartingX=55, StartingY=46
+	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
+	Team=12
 	LeaderType=LEADER_ELIZABETH
-	CivType=CIVILIZATION_ENGLAND                         
-	Team=12                         
-	PlayableCiv=1                         
-	StartingX=56, StartingY=53                         
-	Handicap=HANDICAP_NOBLE                         
+	CivType=CIVILIZATION_ENGLAND
+	PlayableCiv=1
+	StartingX=56, StartingY=53
+	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
+	Team=13
 	LeaderType=LEADER_CATHERINE
-	CivType=CIVILIZATION_RUSSIA                         
-	Team=13                         
-	PlayableCiv=1                         
-	StartingX=73, StartingY=54                         
-	Handicap=HANDICAP_NOBLE                         
+	CivType=CIVILIZATION_RUSSIA
+	PlayableCiv=1
+	StartingX=73, StartingY=54
+	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
+	Team=14
 	LeaderType=LEADER_MANSA_MUSA
-	CivType=CIVILIZATION_MALI                         
-	Team=14                         
-	PlayableCiv=1                         
-	StartingX=55, StartingY=34                         
-	Handicap=HANDICAP_NOBLE                         
+	CivType=CIVILIZATION_MALI
+	PlayableCiv=1
+	StartingX=55, StartingY=34
+	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
+	Team=15
 	LeaderType=LEADER_HUAYNA_CAPAC
-	CivType=CIVILIZATION_INCA                         
-	Team=15                         
-	PlayableCiv=1                         
-	StartingX=30, StartingY=23                         
-	Handicap=HANDICAP_NOBLE                         
+	CivType=CIVILIZATION_INCA
+	PlayableCiv=1
+	StartingX=30, StartingY=23
+	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
+	Team=16
 	LeaderType=LEADER_MONTEZUMA
-	CivType=CIVILIZATION_AZTEC                         
-	Team=16                         
-	PlayableCiv=1                         
-	StartingX=19, StartingY=37                         
-	Handicap=HANDICAP_NOBLE                         
+	CivType=CIVILIZATION_AZTEC
+	PlayableCiv=1
+	StartingX=19, StartingY=37
+	Handicap=HANDICAP_NOBLE
 EndPlayer
 BeginPlayer
+	Team=17
 	LeaderType=LEADER_FRANKLIN_ROOSEVELT
-	CivType=CIVILIZATION_AMERICA                         
-	Team=17                         
-	PlayableCiv=1                         
-	StartingX=28, StartingY=45                         
-	Handicap=HANDICAP_NOBLE                         
+	CivType=CIVILIZATION_AMERICA
+	PlayableCiv=1
+	StartingX=28, StartingY=45
+	Handicap=HANDICAP_NOBLE
 EndPlayer
-
 BeginMap
 	grid width=124
 	grid height=68
 	wrap X=1
 	wrap Y=0
-	top latitude=90                 
-	bottom latitude=-90                 
-	world size=WORLDSIZE_HUGE                 
-	climate=CLIMATE_TEMPERATE                 
-	sealevel=SEALEVEL_MEDIUM                 
+	top latitude=90
+	bottom latitude=-90
+	world size=WORLDSIZE_HUGE
+	climate=CLIMATE_TEMPERATE
+	sealevel=SEALEVEL_MEDIUM
 	num plots written=8432
 EndMap
-
 
 ### Plot Info ###
 BeginPlot
