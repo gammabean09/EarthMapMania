@@ -5847,22 +5847,19 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=15,y=56
-	TerrainType=TERRAIN_SNOW
-#marsh
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=15,y=57
 	isNOfRiver
 	RiverWEDirection=1
-	TerrainType=TERRAIN_SNOW
-#marsh
+	TerrainType=TERRAIN_TUNDRA
 	PlotType=2
 EndPlot
 BeginPlot
 	x=15,y=58
-	TerrainType=TERRAIN_SNOW
-#marsh
+	TerrainType=TERRAIN_TUNDRA
 	PlotType=2
 EndPlot
 BeginPlot
@@ -6217,8 +6214,7 @@ BeginPlot
 	RiverWEDirection=1
 	isWOfRiver
 	RiverNSDirection=0
-	TerrainType=TERRAIN_SNOW
-#marsh
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
@@ -6234,8 +6230,7 @@ BeginPlot
 	x=16,y=57
 	isNOfRiver
 	RiverWEDirection=1
-	TerrainType=TERRAIN_SNOW
-#marsh
+	TerrainType=TERRAIN_TUNDRA
 	PlotType=2
 EndPlot
 BeginPlot
@@ -6586,14 +6581,12 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=17,y=54
-	TerrainType=TERRAIN_SNOW
-#marsh
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=17,y=55
-	TerrainType=TERRAIN_SNOW
-#marsh
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
@@ -7693,8 +7686,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=20,y=51
-	TerrainType=TERRAIN_SNOW
-#marsh
+	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
@@ -7705,8 +7697,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=20,y=53
-	TerrainType=TERRAIN_SNOW
-#marsh
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
@@ -8073,8 +8064,7 @@ BeginPlot
 	x=21,y=51
 	isNOfRiver
 	RiverWEDirection=1
-	TerrainType=TERRAIN_SNOW
-#marsh
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
@@ -8774,8 +8764,7 @@ BeginPlot
 	x=23,y=43
 	isWOfRiver
 	RiverNSDirection=2
-	TerrainType=TERRAIN_SNOW
-#marsh
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
@@ -9516,8 +9505,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=25,y=44
-	TerrainType=TERRAIN_SNOW
-#marsh
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
@@ -10530,8 +10518,7 @@ BeginPlot
 	x=28,y=26
 	isNOfRiver
 	RiverWEDirection=1
-	TerrainType=TERRAIN_SNOW
-#marsh
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
@@ -10901,8 +10888,7 @@ BeginPlot
 	x=29,y=26
 	isNOfRiver
 	RiverWEDirection=1
-	TerrainType=TERRAIN_SNOW
-#marsh
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
@@ -10917,16 +10903,14 @@ BeginPlot
 	RiverWEDirection=1
 	isWOfRiver
 	RiverNSDirection=0
-	TerrainType=TERRAIN_SNOW
-#marsh
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=29,y=29
 	isWOfRiver
 	RiverNSDirection=0
-	TerrainType=TERRAIN_SNOW
-#marsh
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
@@ -11277,8 +11261,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=30,y=24
-	TerrainType=TERRAIN_SNOW
-#marsh
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
@@ -11291,8 +11274,7 @@ BeginPlot
 	x=30,y=26
 	isNOfRiver
 	RiverWEDirection=1
-	TerrainType=TERRAIN_SNOW
-#marsh
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
@@ -11321,8 +11303,7 @@ BeginPlot
 	RiverWEDirection=1
 	isWOfRiver
 	RiverNSDirection=0
-	TerrainType=TERRAIN_SNOW
-#marsh
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
@@ -11671,14 +11652,12 @@ BeginPlot
 	RiverWEDirection=1
 	isWOfRiver
 	RiverNSDirection=0
-	TerrainType=TERRAIN_SNOW
-#marsh
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=31,y=25
-	TerrainType=TERRAIN_SNOW
-#marsh
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
@@ -11972,8 +11951,7 @@ BeginPlot
 	x=32,y=9
 	isNOfRiver
 	RiverWEDirection=1
-	TerrainType=TERRAIN_SNOW
-#marsh
+	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
@@ -12064,24 +12042,21 @@ BeginPlot
 	x=32,y=25
 	isNOfRiver
 	RiverWEDirection=1
-	TerrainType=TERRAIN_SNOW
-#marsh
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=32,y=26
 	isNOfRiver
 	RiverWEDirection=1
-	TerrainType=TERRAIN_SNOW
-#marsh
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=32,y=27
 	isNOfRiver
 	RiverWEDirection=1
-	TerrainType=TERRAIN_SNOW
-#marsh
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
@@ -12357,8 +12332,7 @@ BeginPlot
 	x=33,y=9
 	isNOfRiver
 	RiverWEDirection=1
-	TerrainType=TERRAIN_SNOW
-#marsh
+	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
@@ -12382,8 +12356,7 @@ BeginPlot
 	x=33,y=13
 	isWOfRiver
 	RiverNSDirection=2
-	TerrainType=TERRAIN_SNOW
-#marsh
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
@@ -12461,8 +12434,7 @@ BeginPlot
 	RiverWEDirection=1
 	isWOfRiver
 	RiverNSDirection=0
-	TerrainType=TERRAIN_SNOW
-#marsh
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
@@ -12471,8 +12443,7 @@ BeginPlot
 	RiverWEDirection=1
 	isWOfRiver
 	RiverNSDirection=2
-	TerrainType=TERRAIN_SNOW
-#marsh
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
@@ -12774,14 +12745,12 @@ BeginPlot
 	x=34,y=13
 	isWOfRiver
 	RiverNSDirection=2
-	TerrainType=TERRAIN_SNOW
-#marsh
+	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=34,y=14
-	TerrainType=TERRAIN_SNOW
-#marsh
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
@@ -12852,8 +12821,7 @@ BeginPlot
 	x=34,y=25
 	isWOfRiver
 	RiverNSDirection=0
-	TerrainType=TERRAIN_SNOW
-#marsh
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
@@ -13173,16 +13141,14 @@ BeginPlot
 	x=35,y=15
 	isWOfRiver
 	RiverNSDirection=2
-	TerrainType=TERRAIN_SNOW
-#marsh
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=35,y=16
 	isWOfRiver
 	RiverNSDirection=2
-	TerrainType=TERRAIN_SNOW
-#marsh
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
@@ -13198,24 +13164,21 @@ BeginPlot
 	RiverWEDirection=1
 	isWOfRiver
 	RiverNSDirection=2
-	TerrainType=TERRAIN_SNOW
-#marsh
+	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=35,y=19
 	isWOfRiver
 	RiverNSDirection=2
-	TerrainType=TERRAIN_SNOW
-#marsh
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=35,y=20
 	isWOfRiver
 	RiverNSDirection=2
-	TerrainType=TERRAIN_SNOW
-#marsh
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
@@ -13252,16 +13215,14 @@ BeginPlot
 	x=35,y=25
 	isWOfRiver
 	RiverNSDirection=0
-	TerrainType=TERRAIN_SNOW
-#marsh
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=35,y=26
 	isWOfRiver
 	RiverNSDirection=0
-	TerrainType=TERRAIN_SNOW
-#marsh
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
@@ -13573,16 +13534,14 @@ BeginPlot
 	RiverNSDirection=2
 	isNOfRiver
 	RiverWEDirection=3
-	TerrainType=TERRAIN_SNOW
-#marsh
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=36,y=17
 	isWOfRiver
 	RiverNSDirection=2
-	TerrainType=TERRAIN_SNOW
-#marsh
+	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
@@ -13593,14 +13552,12 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=36,y=19
-	TerrainType=TERRAIN_SNOW
-#marsh
+	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=36,y=20
-	TerrainType=TERRAIN_SNOW
-#marsh
+	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
@@ -13951,8 +13908,7 @@ BeginPlot
 	x=37,y=17
 	isNOfRiver
 	RiverWEDirection=3
-	TerrainType=TERRAIN_SNOW
-#marsh
+	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
@@ -13961,8 +13917,7 @@ BeginPlot
 	RiverNSDirection=2
 	isNOfRiver
 	RiverWEDirection=3
-	TerrainType=TERRAIN_SNOW
-#marsh
+	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
@@ -13987,24 +13942,21 @@ BeginPlot
 	RiverWEDirection=1
 	isWOfRiver
 	RiverNSDirection=0
-	TerrainType=TERRAIN_SNOW
-#marsh
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=37,y=23
 	isWOfRiver
 	RiverNSDirection=0
-	TerrainType=TERRAIN_SNOW
-#marsh
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=37,y=24
 	isWOfRiver
 	RiverNSDirection=0
-	TerrainType=TERRAIN_SNOW
-#marsh
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
