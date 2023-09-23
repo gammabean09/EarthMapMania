@@ -11039,7 +11039,7 @@ BeginPlot
 	isWOfRiver
 	RiverNSDirection=2
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
@@ -25495,7 +25495,7 @@ BeginPlot
 	x=68,y=36
 	BonusType=BONUS_WHEAT
 	isNOfRiver
-	RiverWEDirection=0
+	RiverWEDirection=3
 	isWOfRiver
 	RiverNSDirection=0
 	TerrainType=TERRAIN_GRASS
